@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1857AB242443662600903603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB232443662600903603 /* AppDelegate.swift */; };
 		1857AB262443662600903603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB252443662600903603 /* SceneDelegate.swift */; };
-		1857AB282443662600903603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB272443662600903603 /* ViewController.swift */; };
 		1857AB2B2443662600903603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857AB292443662600903603 /* Main.storyboard */; };
 		1857AB2D2443662700903603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1857AB2C2443662700903603 /* Assets.xcassets */; };
 		1857AB302443662700903603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857AB2E2443662700903603 /* LaunchScreen.storyboard */; };
+		1857AB3824436EE800903603 /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB3724436EE800903603 /* SearchRecipeViewController.swift */; };
+		1857AB3D244375FF00903603 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB3C244375FF00903603 /* RecipeModel.swift */; };
+		1857AB3F2443761900903603 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB3E2443761900903603 /* RecipeViewModel.swift */; };
+		1857AB482443882F00903603 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AB472443882F00903603 /* BaseApi.swift */; };
+		63CEECA536B82A310BDEDB73 /* Pods_Magic_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8056120F327DD640446B3E1 /* Pods_Magic_Recipe.framework */; };
+		FC16449F24792AB30096FD52 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16449E24792AB30096FD52 /* RecipeDetailViewController.swift */; };
+		FC1644A124792DA50096FD52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1644A024792DA40096FD52 /* WebKit.framework */; };
+		FC6B0F522477FFA600ED6ED5 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B0F512477FFA600ED6ED5 /* RecipeTableViewCell.swift */; };
+		FC6B0F542477FFDD00ED6ED5 /* recipe- DataSource + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B0F532477FFDD00ED6ED5 /* recipe- DataSource + Delegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1857AB202443662600903603 /* Magic Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1857AB232443662600903603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1857AB252443662600903603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1857AB272443662600903603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1857AB2A2443662600903603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1857AB2C2443662700903603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1857AB2F2443662700903603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1857AB312443662700903603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857AB3724436EE800903603 /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		1857AB3C244375FF00903603 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		1857AB3E2443761900903603 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		1857AB472443882F00903603 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		77C17DED36C5EBF17CE71A42 /* Pods-Magic Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.debug.xcconfig"; sourceTree = "<group>"; };
+		B1FCF7138A8A5BDBE07E2651 /* Pods-Magic Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Recipe.release.xcconfig"; path = "Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe.release.xcconfig"; sourceTree = "<group>"; };
+		C8056120F327DD640446B3E1 /* Pods_Magic_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC16449E24792AB30096FD52 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		FC1644A024792DA40096FD52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FC6B0F512477FFA600ED6ED5 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		FC6B0F532477FFDD00ED6ED5 /* recipe- DataSource + Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe- DataSource + Delegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1644A124792DA50096FD52 /* WebKit.framework in Frameworks */,
+				63CEECA536B82A310BDEDB73 /* Pods_Magic_Recipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066F2F924F46455CA4C5E109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77C17DED36C5EBF17CE71A42 /* Pods-Magic Recipe.debug.xcconfig */,
+				B1FCF7138A8A5BDBE07E2651 /* Pods-Magic Recipe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1857AB172443662600903603 = {
 			isa = PBXGroup;
 			children = (
 				1857AB222443662600903603 /* Magic Recipe */,
 				1857AB212443662600903603 /* Products */,
+				066F2F924F46455CA4C5E109 /* Pods */,
+				4F0887EFA532A8A884DFFD09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,86 @@
 		1857AB222443662600903603 /* Magic Recipe */ = {
 			isa = PBXGroup;
 			children = (
+				1857AB3A2443756400903603 /* Model */,
+				FC6B0F502477FA4B00ED6ED5 /* View */,
+				1857AB392443753400903603 /* ViewModel */,
+				1857AB3B2443759F00903603 /* Controller */,
+				1857AB4024437E4400903603 /* Helper */,
 				1857AB232443662600903603 /* AppDelegate.swift */,
 				1857AB252443662600903603 /* SceneDelegate.swift */,
-				1857AB272443662600903603 /* ViewController.swift */,
-				1857AB292443662600903603 /* Main.storyboard */,
 				1857AB2C2443662700903603 /* Assets.xcassets */,
-				1857AB2E2443662700903603 /* LaunchScreen.storyboard */,
 				1857AB312443662700903603 /* Info.plist */,
 			);
 			path = "Magic Recipe";
+			sourceTree = "<group>";
+		};
+		1857AB392443753400903603 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1857AB3E2443761900903603 /* RecipeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1857AB3A2443756400903603 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1857AB3C244375FF00903603 /* RecipeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1857AB3B2443759F00903603 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC16449D24792A800096FD52 /* recipe Detail */,
+				FC16449C24792A620096FD52 /* SearchRecipe */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1857AB4024437E4400903603 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1857AB472443882F00903603 /* BaseApi.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4F0887EFA532A8A884DFFD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1644A024792DA40096FD52 /* WebKit.framework */,
+				C8056120F327DD640446B3E1 /* Pods_Magic_Recipe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC16449C24792A620096FD52 /* SearchRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				1857AB3724436EE800903603 /* SearchRecipeViewController.swift */,
+				FC6B0F512477FFA600ED6ED5 /* RecipeTableViewCell.swift */,
+				FC6B0F532477FFDD00ED6ED5 /* recipe- DataSource + Delegate.swift */,
+			);
+			path = SearchRecipe;
+			sourceTree = "<group>";
+		};
+		FC16449D24792A800096FD52 /* recipe Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FC16449E24792AB30096FD52 /* RecipeDetailViewController.swift */,
+			);
+			path = "recipe Detail";
+			sourceTree = "<group>";
+		};
+		FC6B0F502477FA4B00ED6ED5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1857AB2E2443662700903603 /* LaunchScreen.storyboard */,
+				1857AB292443662600903603 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1857AB342443662700903603 /* Build configuration list for PBXNativeTarget "Magic Recipe" */;
 			buildPhases = (
+				5F623DD095866CEE9BE3B510 /* [CP] Check Pods Manifest.lock */,
 				1857AB1C2443662600903603 /* Sources */,
 				1857AB1D2443662600903603 /* Frameworks */,
 				1857AB1E2443662600903603 /* Resources */,
+				AC01304C2853089EDF4D30E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +237,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F623DD095866CEE9BE3B510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic Recipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC01304C2853089EDF4D30E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magic Recipe/Pods-Magic Recipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1857AB1C2443662600903603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857AB282443662600903603 /* ViewController.swift in Sources */,
+				1857AB3824436EE800903603 /* SearchRecipeViewController.swift in Sources */,
+				FC16449F24792AB30096FD52 /* RecipeDetailViewController.swift in Sources */,
+				1857AB3D244375FF00903603 /* RecipeModel.swift in Sources */,
 				1857AB242443662600903603 /* AppDelegate.swift in Sources */,
+				FC6B0F522477FFA600ED6ED5 /* RecipeTableViewCell.swift in Sources */,
+				FC6B0F542477FFDD00ED6ED5 /* recipe- DataSource + Delegate.swift in Sources */,
+				1857AB3F2443761900903603 /* RecipeViewModel.swift in Sources */,
 				1857AB262443662600903603 /* SceneDelegate.swift in Sources */,
+				1857AB482443882F00903603 /* BaseApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +434,7 @@
 		};
 		1857AB352443662700903603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C17DED36C5EBF17CE71A42 /* Pods-Magic Recipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +452,7 @@
 		};
 		1857AB362443662700903603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FCF7138A8A5BDBE07E2651 /* Pods-Magic Recipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
